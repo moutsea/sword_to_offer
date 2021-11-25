@@ -21,8 +21,8 @@ class Case3(Case):
         self.n, self.m, self.k, self.ans = n, m, k, ans
         self.arr = arr
 
-    def output(self, path, result_path, idx):
-        with open(path, 'a+') as f:
+    def output(self, data_path, result_path, idx):
+        with open(data_path, 'a+') as f:
             f.write('{} {} {}\n'.format(self.n, self.m, self.k))
             for i in range(self.n):
                 for j in range(self.m):

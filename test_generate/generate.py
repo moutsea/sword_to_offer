@@ -3,7 +3,7 @@ output_path_base = '../test/data'
 result_path_base = '../test/result'
 
 class Case:
-    def output(self, path):
+    def output(self, data_path, result_path, idx):
         raise NotImplementedError()
 
 
